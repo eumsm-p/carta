@@ -347,9 +347,9 @@
   <div class="letter">
     <!-- Insira algo aqui -->
     <p>Amorzinho,</p>
-    <p>Eu sei que ta só 1 pouquinhozinho fora do tempo, mas eu queria fazer algo de especial para você, e nada melhor do que uma carta em HTML com 1 foto nossa.</p>
-    <p>Desde quando a gente começou namorar la no inicio do ano, eu ja sabia que essa seria a melhor decisão do meu ano, e só não vai ser a melhor decisão da minha vida porque a melhor decisão vai ser me casar com você</p>
-    <p>E como esse contador que mostra o nosso tempo juntos, nele não existe limite algum, assim como o nosso amor, pois vamos ficar juntos por toda eternidade, e a cada segundo ao seu lado vai valer a pena, porque você é a pessoa mais especial do mundo</p>
+    <p>Eu sei que está só um pouquinho fora do tempo, mas eu queria fazer algo especial para você, e nada melhor do que uma carta em HTML com uma foto nossa.</p>
+    <p>Desde quando a gente começou a namorar, lá no início do ano, eu já sabia que essa seria a melhor decisão do meu ano — e só não vai ser a melhor decisão da minha vida porque a melhor decisão ainda vai ser me casar com você.</p>
+    <p>E assim como esse contador que mostra o nosso tempo juntos não tem limite nenhum, o nosso amor também não tem. Vamos ficar juntos por toda a eternidade, e cada segundo ao seu lado vai valer a pena, porque você é a pessoa mais especial do mundo.</p>
     <div class="signature">com todo o meu amor ✨</div>
   </div>
 
@@ -381,13 +381,6 @@
   envelopeWrap.setAttribute('tabindex', '0');
   envelopeWrap.setAttribute('role', 'button');
   envelopeWrap.setAttribute('aria-label', 'Abrir envelope');
-
-  // TEMPORÁRIO: pula a animação do envelope para facilitar a edição do texto.
-  // Para reativar a animação depois, apague a linha abaixo.
-  envelopeScreen.style.display = 'none';
-  mainContent.classList.add('visible');
-  document.body.classList.remove('locked');
-  startHearts();
 
   // Floating hearts (start only after envelope opens)
   function startHearts() {
